@@ -86,7 +86,7 @@ def main():
     #create an empty list for the dealer
     DC = []
     DC.append(random.randint(2,11)) 
-    DC.append(random.randint(2,11))#adds number to list
+    DC.append(random.randint(2,11)) #adds number to list but keeps it hidden
     print("-"*25)
     print("The dealer has,", DC[0],", and a hidden card.")
     print("The dealer has a total of", DC[0])
